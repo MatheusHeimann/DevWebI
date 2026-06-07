@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    color: white;
+}
+
+header {
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: calc(100vh - 80px);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;     
+    align-items: center;     
+    gap: 40px;               
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 320px;       
+}
